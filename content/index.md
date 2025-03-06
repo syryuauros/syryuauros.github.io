@@ -1,9 +1,11 @@
 ---
-title: Welcome to Quartz
+title: syryuauros
 ---
-
 This is a blank Quartz installation.
 See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 
 This is Just TEST!!
-# 1
+
+> [!NOTE]- note
+> Contents
+
