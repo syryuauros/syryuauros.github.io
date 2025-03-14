@@ -1,5 +1,5 @@
 ---
-title: this is test2!
+title: how to auto update gitpage by pushing obsidian change!
 ---
 #index
 [[index]]
@@ -15,7 +15,7 @@ title: this is test2!
 > 5. $direnv allow (for auto adopt of dev shell environment when open /gits/quartz_gitPage/)
 > 6. instead of 4,5 -> $nix develop
 > 7. /gits/quartz_gitPage/$ git clone https://github.com/syryuauros/syryuauros.github.io.git
-> 8. 
+> 8.
 
 ### flake.nix
 ```
@@ -63,7 +63,7 @@ https://phodobit.kr/49
 ## c. auto update for git Page
 ### git hook 사용
 - /gits/quartz_gitPage/syryuauros.github.io/.git/hooks/pre-push
--  .git folder is not shown in doom emacs merely 'Shift + h' 
+-  .git folder is not shown in doom emacs merely 'Shift + h'
 - use cmd ->  /gits/quartz_gitPage/syryuauros.github.io/$ ls -la
 - or spc-f-f in doom emacs (doom/find-file-in-private-config)
 - edit 'pre-push.sample' to use 'npx quartz sync' -> change file name to 'pre-push' to activate hook
@@ -115,4 +115,3 @@ npx quartz sync
 exit 0
 
 ```
-
